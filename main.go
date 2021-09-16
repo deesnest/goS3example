@@ -10,6 +10,8 @@ import (
 	"fmt"
 	"log"
 	"net/http"
+	 
+	"github.com/aws/aws-sdk-go/service/s3/s3manager"
 
 	"github.com/aws/aws-sdk-go/aws"
 	"github.com/aws/aws-sdk-go/aws/session"
