@@ -16,8 +16,8 @@ import (
 )
 
 const (
-	AWS_S3_REGION = ""
-	AWS_S3_BUCKET = ""
+	AWS_S3_REGION = "ap-south-1"
+	AWS_S3_BUCKET = "golangbucket"
 )
 
 var sess = connectAWS()
